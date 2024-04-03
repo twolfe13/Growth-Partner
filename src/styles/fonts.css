@@ -17,3 +17,23 @@
   src: local("font"),
     url("../assets/fonts/Poppins-ExtraBold.ttf") format("truetype");
 }
+@font-face {
+  font-family: "KumbhSans-Rg";
+  src: local("font"),
+    url("../assets/fonts/KumbhSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "KumbhSans-Md";
+  src: local("font"),
+    url("../assets/fonts/KumbhSans-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "KumbhSans-Bd";
+  src: local("font"),
+    url("../assets/fonts/KumbhSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "KumbhSans-ExBd";
+  src: local("font"),
+    url("../assets/fonts/KumbhSans-ExtraBold.ttf") format("truetype");
+}

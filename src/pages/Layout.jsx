@@ -45,7 +45,8 @@ export default function Layout() {
                 >
                   <span
                     className={` text-gray text-sm text-center ${
-                      item.url === location.pathname && "text-green"
+                      item.url === location.pathname &&
+                      "text-green font-primary-bd"
                     } `}
                   >
                     {item?.title}
@@ -55,7 +56,12 @@ export default function Layout() {
             </ul>
           </nav>
           <div className="flex flex-col gap-1 ">
-            <div className=" h-11 w-[134px] bg-green rounded-full text-white text-center items-center flex justify-center ">
+            <div
+              className=" h-11 w-[134px] bg-green rounded-full text-white text-center items-center flex justify-center cursor-pointer"
+              onClick={() => {
+                activeTab(-1, "/meet");
+              }}
+            >
               let's meet
             </div>
             <p className="text-xs font-normal text-center text-gray">
@@ -64,7 +70,7 @@ export default function Layout() {
           </div>
         </div>
       </div>
-      <div className="w-full overflow-auto mt-[74px]">
+      <div className="w-full overflow-auto mt-[74px] bg-white">
         <Outlet />
       </div>
     </div>
