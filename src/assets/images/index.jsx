@@ -43,8 +43,19 @@ import OnboardingTransisitonProcess from "./OnboardingTransisitonProcess.png";
 import PricingRate from "./PricingRate.png";
 import ServiceOfferingStructure from "./ServiceOfferingStructure.png";
 import TransitionProcess from "./TransitionProcess.png";
+import CodeConduct from "./CodeConduct.png";
+import Diversity from "./Diversity.png";
+import GrassRoots from "./GrassRoots.png";
+import Accessibility from "./Accessibility.png";
+import RouseConsultancy from "./RouseConsultancy.png";
 
 const Assets = {
+  CodeConduct,
+  Diversity,
+  GrassRoots,
+  Accessibility,
+  RouseConsultancy,
+
   EducationResourceHub,
   OnboardingTransisitonProcess,
   PricingRate,
