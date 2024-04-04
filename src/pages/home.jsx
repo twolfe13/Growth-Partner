@@ -12,7 +12,9 @@ export default function home() {
         heading="More Practical Sales Consulting"
         content="For CEOs and Sales Leaders committed to a sales 'scale up' -
               encompassing performance, structure, and sales talent engagement."
-        className="w-1/2"
+        className="mx-10"
+        hStyle="text-lg md:text-5xl text-white"
+        cStyle="text-lg md:text-xl text-white"
       />
       {/* Section 1*/}
       <div className=" pt-10 px-10 md:px-[100px] pb-12">
@@ -291,8 +293,8 @@ export default function home() {
         className=" bg-contain md:bg-cover"
         style={{ backgroundImage: `url(${Images?.Frame})` }}
       >
-        <div className="bg-xlGray bg-opacity-20 w-full  flex  md:px-[100px] pb-12 relative justify-between ">
-          <div className="flex flex-col gap-8 p-10 w-1/2">
+        <div className="bg-xlGray bg-opacity-20 w-full flex flex-col md:flex-row px-10  md:px-[100px] pb-12 relative justify-between ">
+          <div className="flex flex-col gap-8 md:p-10 md:w-1/2">
             <h5 className=" text-lg font-semibold text-darkBlack font-primary-md">
               My role is to be there for you as a Founder / CEO / Sales Leader
               on an ongoing basis. Including proactively bringing your attention
@@ -310,7 +312,7 @@ export default function home() {
               sales - the "lifeblood" of any company.
             </p>
           </div>
-          <div className=" w-1/2 flex justify-end ">
+          <div className="my-2 md:my-0 md:w-1/2 flex justify-end ">
             <div>
               <img
                 src={Images?.Andrea}
@@ -324,7 +326,7 @@ export default function home() {
           </div>
 
           <div
-            className=" absolute top-1/4 left-2/4 transform -translate-x-2/5 -translate-y-1/2 w-56 h-28 bg-white shadow-lg border-[1px] border-lightGray p-6 rounded-2xl flex justify-between items-center"
+            className=" hidden absolute top-1/4 left-2/4 transform -translate-x-2/5 -translate-y-1/2 w-56 h-28 bg-white shadow-lg border-[1px] border-lightGray p-6 rounded-2xl md:flex justify-between items-center"
             style={{ boxShadow: "0px 14px 18px 0px rgba(0, 0, 0, 0.04)" }}
           >
             <div>

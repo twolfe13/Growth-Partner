@@ -25,8 +25,31 @@ import MaskAboutMe from "./MaskAboutMe.png";
 import MaskClientSales from "./MaskClientSales.png";
 import MaskSalesEngagements from "./MaskSalesEngagements.png";
 import MaskInfrastructure from "./MaskInfrastructure.png";
+import MaskMeet from "./MaskMeet.png";
+import handoff from "./New Sale to Client or handoff Process.png";
+import SalesMaterial from "./Sales Material.png";
+import SalesProcess from "./Sales Process.png";
+import KPIDevelopment from "./KPIDevelopment.png";
+import SalesJourney from "./SalesJourney.png";
+import SalesResources from "./SalesResources.png";
+import CrossFunctionalResponsisbilites from "./CrossFunctionalResponsisbilites.png";
+import CrossFunctionalSalesTeamRoles from "./CrossFunctionalSalesTeamRoles.png";
+import PitchDevelopment from "./PitchDevelopment.png";
+import SalesPlaybook from "./SalesPlaybook.png";
+import SalesTrading from "./SalesTrading.png";
+import ValuePreposition from "./ValuePreposition.png";
+import EducationResourceHub from "./EducationResourceHub.png";
+import OnboardingTransisitonProcess from "./OnboardingTransisitonProcess.png";
+import PricingRate from "./PricingRate.png";
+import ServiceOfferingStructure from "./ServiceOfferingStructure.png";
+import TransitionProcess from "./TransitionProcess.png";
 
 const Assets = {
+  EducationResourceHub,
+  OnboardingTransisitonProcess,
+  PricingRate,
+  ServiceOfferingStructure,
+  TransitionProcess,
   Chart2,
   HandStars,
   SuspensionBolt,
@@ -54,6 +77,19 @@ const Assets = {
   MaskClientSales,
   MaskSalesEngagements,
   MaskInfrastructure,
+  MaskMeet,
+  handoff,
+  SalesMaterial,
+  SalesProcess,
+  KPIDevelopment,
+  SalesJourney,
+  SalesResources,
+  CrossFunctionalResponsisbilites,
+  CrossFunctionalSalesTeamRoles,
+  PitchDevelopment,
+  SalesPlaybook,
+  SalesTrading,
+  ValuePreposition,
 };
 
 export default Assets;
