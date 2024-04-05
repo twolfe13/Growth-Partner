@@ -1,6 +1,7 @@
 import React from "react";
 import LandingImage from "../components/home/LandingImage";
 import { Images } from "../assets";
+import Footer from "../common/Footer";
 
 const salesEngagement = [
   {
@@ -25,7 +26,9 @@ export default function SalesEngagement() {
         highlight=" Sales Talent Engagement"
         heading="Sales & Client Team Engagement"
         content="Do you struggle to excel in retention, and engagement of talent in the 2023 talent market? You're not alone."
-        className="w-1/2"
+        className="mx-10"
+        hStyle="text-lg md:text-5xl text-white"
+        cStyle="text-lg md:text-xl text-white"
       />
       <div className=" flex flex-col  gap-10 py-[50px]">
         <h2 className=" text-lg text-center md:text-4xl font-primary-md text-black">
@@ -33,7 +36,7 @@ export default function SalesEngagement() {
           changed.
         </h2>
         <div className=" flex flex-col gap-2">
-          <div className="flex flex-row w-full justify-between md:px-[100px]  ">
+          <div className="flex flex-row w-full px-10 justify-between md:px-[100px]  ">
             <img
               src={Images?.Diversity}
               alt=""
@@ -51,7 +54,7 @@ export default function SalesEngagement() {
               onClick={() => {}}
             />
           </div>
-          <div className="flex flex-row w-full justify-between md:px-[100px] ">
+          <div className="flex flex-row w-full px-10 justify-between md:px-[100px] ">
             <img
               src={Images?.GrassRoots}
               alt=""
@@ -78,27 +81,173 @@ export default function SalesEngagement() {
               onClick={() => {}}
             />
           </div>
-          <p className=" text-gray text-sm text-center md:px-[100px] ">
+          <p className=" text-gray text-sm text-center px-10 md:px-[100px] ">
             LI Article Chief Growth Office screenshot
           </p>
-          <div className="flex flex-col gap-4  bg-lightPink ">
-            <h3 className=" text-3xl text-[#212529] font-primary-md">
-              A few examples of sales infrastructure explained:
-            </h3>
-            <div className="border-[1px] bg-lightGray w-full h-1"></div>
-            {salesEngagement?.map((item) => (
-              <div className=" flex flex-col md:flex-row w-full py-4 border-b-[1px] border-lightGray">
+          <div className="flex flex-col gap-4 px-10  bg-lightPink md:px-[100px] ">
+            {salesEngagement?.map((item, index) => (
+              <div
+                className={` flex flex-col md:flex-row w-full py-4 ${
+                  index != salesEngagement?.length - 1 && "border-b-[1px]"
+                } border-lightGray`}
+              >
                 <h4 className="flex text-black text-2xl w-1/4 items-center py-2">
                   {item?.key}
                 </h4>
-                <p className=" text-gray  text-base w-full md:w-3/4">
+                <p className=" text-gray text-base w-full flex md:w-3/4">
                   {item?.des}
                 </p>
               </div>
             ))}
           </div>
+          <div className="flex flex-col gap-4 px-10 py-[50px]  md:px-[100px] ">
+            <h4 className=" text-2xl text-black font-primary-md">
+              Engaging, getting Millennials / Gen Z to give their best at work
+            </h4>
+            <p className=" text-base text-gray">
+              Why is this such a big problem? A sales team above all, depends on
+              participation and engagement. If they're not participating in
+              meetings, or producing sales activity.. they're just burning your
+              capital, which could even be spent on lead generation or some
+              other sales service.. of which there are many out there run by
+              seasoned sales veterans with capable outsourced bandwidth,
+              ensuring you get optimized return on every $ spent on sales.
+            </p>
+            <p className=" text-base text-gray">
+              Use my own "millennial grown" engagement theories backed by
+              results, to empower your internal sales team and avoid your
+              salespeople burning out.
+            </p>
+            <p className=" text-base text-gray">
+              Help your salespeople understand their "why" behind being a high
+              performing sales person (in a practical manner) - a scientifically
+              proven way to boost employee motivation, more than financial or
+              other external benefits
+            </p>
+          </div>
+          <div
+            className="shadow-lg w-full  rounded-3xl flex flex-wrap  md:justify-between py-[50px]  md:px-[100px]"
+            style={{ boxShadow: "0px 14px 18px 0px rgba(0, 0, 0, 0.04)" }}
+          >
+            <div className="flex flex-col p-6 gap-8 md:w-1/2 lg:w-1/3 ">
+              <img
+                src={Images?.Chart2}
+                alt=""
+                height={50}
+                width={50}
+                className={`items-center `}
+                onClick={() => {}}
+              />
+              <p className=" text-base text-darkBlack font-semibold font-primary-md">
+                Improve performance
+              </p>
+              <p className=" text-sm text-gray font-normal">
+                Try new and different for sales team engagement, focused on
+                improving performance in a self-sustaining way.
+              </p>
+            </div>
+            <div className="flex flex-col p-6 gap-8 md:w-1/2 lg:w-1/3 border-l-[1px] border-lightGray">
+              <img
+                src={Images?.Dollar}
+                alt=""
+                height={50}
+                width={50}
+                className={`items-center `}
+                onClick={() => {}}
+              />
+              <p className=" text-base text-darkBlack font-semibold font-primary-md">
+                Less costly and less risky
+              </p>
+              <p className=" text-sm text-gray font-normal">
+                Try something less costly and less risky than hiring another
+                sales VP for 100k+ / year, or giving up your equity (potentially
+                millions) to a consultant.
+              </p>
+            </div>
+            <div className="flex flex-col p-6 gap-8 md:w-1/2 lg:w-1/3 border-l-[1px] border-lightGray">
+              <img
+                src={Images?.Bolt}
+                alt=""
+                height={50}
+                width={50}
+                className={`items-center `}
+                onClick={() => {}}
+              />
+              <p className=" text-base text-darkBlack font-semibold font-primary-md">
+                Self - Sustaining
+              </p>
+              <p className=" text-sm text-gray font-normal">
+                Try something more practical than a typical consultant, that
+                makes your sales team more self-sustaining without unnecessary
+                oversight.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-4 py-[50px] md:px-[100px] ">
+            <p className=" text-base text-lightGreen xs:px-10 md:px-0">
+              What I work on
+            </p>
+            <div className="flex flex-col md:flex-row md:justify-between xs:px-10 gap-2 md:px-0 ">
+              <div className="flex flex-col md:flex-row gap-2 md:items-center">
+                <h2 className=" text-base md:text-3xl text-black font-primary-md ">
+                  Examples of what I work on for
+                </h2>
+                <h2 className=" text-base md:text-3xl text-darkGreen font-primary-md md:text-center">
+                  Sales Talent Management
+                </h2>
+              </div>
+              <div className=" h-12 w-52 text-center xs:text-sm  bg-darkGreen rounded-[68px] py-[10px] md:px-6  flex items-center  justify-center text-xlGray">
+                {" "}
+                Delivery Model Info{" "}
+              </div>
+            </div>
+            <p className=" text-sm text-gray xs:px-10 md:px-0">
+              What's included and to what extent is unique to each case, and
+              totally driven by the nature of your scale-up goals and needs.
+            </p>
+            <ul className="ml-4 xs:px-10 md:px-0">
+              <li className=" text-gray text-sm list-disc">
+                Delivered in-person and virtually; through one-time consulting
+                kick-off "events", ongoing meetings, and on-demand.
+              </li>
+              <li className=" text-gray text-sm list-disc">
+                Time Duration: 2-6+ months depending on each case
+              </li>
+            </ul>
+          </div>
+          <div className="flex flex-col w-full md:flex-row px-10 md:px-[100px] pb-[50px] justify-between  gap-x-2 xs:gap-10">
+            <div className="flex bg-xlGray rounded-3xl border-[1px] border-lightGray p-3 flex-col gap-4 w-full md:w-[49%]">
+              <h5 className=" text-lg font-secondary-md font-semibold text-black">
+                Remote Work
+              </h5>
+              <p className=" txet-base text-gray">
+                How to handle while maintaining high performance standards and
+                transparency.
+              </p>
+            </div>
+            <div className="flex bg-xlGray rounded-3xl border-[1px] border-lightGray p-3 flex-col gap-4 w-full md:w-[49%]">
+              <h5 className=" text-lg font-secondary-md font-semibold text-black">
+                Optimized sales team roles, responsibilites, and activity
+                structure
+              </h5>
+              <p className=" txet-base text-gray">
+                How to handle while maintaining high performance standards and
+                transparency.
+              </p>
+            </div>
+            <div className="flex bg-xlGray rounded-3xl border-[1px] border-lightGray p-3 flex-col gap-4 w-full md:w-[49%]">
+              <h5 className=" text-lg font-secondary-md font-semibold text-black">
+                Mutually beneficial Compensation Structures
+              </h5>
+              <p className=" txet-base text-gray">
+                How to handle while maintaining high performance standards and
+                transparency.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
