@@ -35,10 +35,10 @@ export default function SalesEngagement() {
           Employee expectations at work aren't changing... they've already
           changed.
         </h2>
-        <div className=" flex flex-col gap-2">
+        <div className=" flex flex-col gap-6">
           <div className="flex flex-row w-full px-10 justify-between md:px-[100px]  ">
             <img
-              src={Images?.Diversity}
+              src={Images?.JoinUs1}
               alt=""
               // height={50}
               width={"49%"}
@@ -46,7 +46,7 @@ export default function SalesEngagement() {
               onClick={() => {}}
             />
             <img
-              src={Images?.CodeConduct}
+              src={Images?.JoinUs2}
               alt=""
               // height={50}
               width={"49%"}
@@ -54,29 +54,20 @@ export default function SalesEngagement() {
               onClick={() => {}}
             />
           </div>
-          <div className="flex flex-row w-full px-10 justify-between md:px-[100px] ">
+          <div className="flex flex-row w-full px-10 justify-between md:px-[100px]  ">
             <img
-              src={Images?.GrassRoots}
+              src={Images?.JoinUs3}
               alt=""
               // height={50}
               width={"49%"}
               className={`items-center `}
               onClick={() => {}}
             />
-
             <img
-              src={Images?.Accessibility}
+              src={Images?.JoinUs4}
               alt=""
               // height={50}
-              width={"24%"}
-              className={`items-center `}
-              onClick={() => {}}
-            />
-            <img
-              src={Images?.RouseConsultancy}
-              alt=""
-              // height={50}
-              width={"24%"}
+              width={"49%"}
               className={`items-center `}
               onClick={() => {}}
             />
@@ -84,17 +75,17 @@ export default function SalesEngagement() {
           <p className=" text-gray text-sm text-center px-10 md:px-[100px] ">
             LI Article Chief Growth Office screenshot
           </p>
-          <div className="flex flex-col gap-4 px-10  bg-lightPink md:px-[100px] ">
+          <div className="flex flex-col gap-4 px-10 py-10  bg-lightPink md:px-[100px] ">
             {salesEngagement?.map((item, index) => (
               <div
                 className={` flex flex-col md:flex-row w-full py-4 ${
                   index != salesEngagement?.length - 1 && "border-b-[1px]"
                 } border-lightGray`}
               >
-                <h4 className="flex text-black text-2xl w-1/4 items-center py-2">
+                <h4 className="flex text-black  text-2xl w-1/4 items-center ">
                   {item?.key}
                 </h4>
-                <p className=" text-gray text-base w-full flex md:w-3/4">
+                <p className=" text-gray text-center text-base w-full flex md:w-3/4">
                   {item?.des}
                 </p>
               </div>

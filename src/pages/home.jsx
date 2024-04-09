@@ -6,7 +6,7 @@ import LandingImage from "../components/home/LandingImage.jsx";
 export default function home() {
   return (
     <div>
-      <LandingImage
+      {/* <LandingImage
         img={Images?.Landing}
         highlight=" Proven strategies backed by science for success."
         heading="More Practical Sales Consulting"
@@ -15,7 +15,62 @@ export default function home() {
         className="mx-10"
         hStyle="text-lg md:text-5xl text-white"
         cStyle="text-lg md:text-xl text-white"
-      />
+      /> */}
+      <div
+        className="bg-contain md:bg-cover"
+        style={{ backgroundImage: `url(${Images?.Landing})` }}
+      >
+        <div className="bg-black bg-opacity-50 w-full xs:py-10 md:py-0 md:h-[640px] flex justify-center items-center">
+          <div className="px-2 md:px-8 flex flex-col justify-center items-center w-full md:w-[866px] h-full ">
+            <div
+              className={`flex  flex-col gap-4 h-full justify-center items-center mb-20 `}
+            >
+              <p className=" text-base font-normal text-white text-center">
+                Proven strategies backed by science for success.
+              </p>
+              <p
+                className={` text-3xl md:text-[52px] text-white text-center leading-tight `}
+              >
+                More Practical Sales Consulting
+              </p>
+              <img
+                src={Images?.WhiteLogo}
+                alt=""
+                height={300}
+                width={300}
+                className={`p-3 items-center  `}
+                onClick={() => {}}
+              />
+
+              <p className={` text-lg md:text-xl text-white `}>
+                I help CEOs and sales leaders "scale up" their sales
+                organization by utilizing my 10+ years of "on the ground" sales
+                experience performing SDR, AE, and AM roles at various
+                organizations at different stages of growth in two different
+                countries.
+              </p>
+            </div>
+            <div className="flex flex-col justify-center items-center md:justify-end mb-20">
+              <div className="flex flex-col gap-2 ">
+                <div className="h-11 w-[170px] rounded-[68px] border-[2px] border-white relative overflow-hidden hover:bg-gray">
+                  <div className="bg-lightGray opacity-50 rounded-[68px] w-full h-full flex justify-center items-center">
+                    <p className="text-white opacity-100">Let's meet</p>
+                  </div>
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <button className="bg-transparent border-none text-white py-2 px-4 rounded-[68px] hover:bg-opacity-75 hover:text-opacity-100 transition duration-300 ease-in-out">
+                      Let's meet
+                    </button>
+                  </div>
+                </div>
+
+                <p className="text-xs font-normal text-center text-white">
+                  In Person Preferred
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       {/* Section 1*/}
       <div className=" pt-10 px-10 md:px-[100px] pb-12">
         <div className="flex flex-col gap-8">

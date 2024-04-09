@@ -48,14 +48,67 @@ import Diversity from "./Diversity.png";
 import GrassRoots from "./GrassRoots.png";
 import Accessibility from "./Accessibility.png";
 import RouseConsultancy from "./RouseConsultancy.png";
+import Avatar3 from "./Avatar3.png";
+import MoneyBag from "./money-bag.png";
+import RepeatOne from "./repeat-one.png";
+import Snow2 from "./snow-2.png";
+import User from "./user.png";
+import ShieldCheck from "./shield-check.png";
+import More from "./more.png";
+import CheckBadge from "./check-badge.png";
+import Google from "./Google.png";
+import Sports1 from "./Sports1.png";
+import Sports2 from "./Sports2.png";
+import Sports3 from "./Sports3.png";
+import Sports4 from "./Sports4.png";
+import Statistic from "./Statistics.png";
+import Liberary from "./liberary.png";
+import PresedentTerm1 from "./PresedentTerm1.png";
+import PresedentTerm2 from "./PresedentTerm2.png";
+import PresedentTerm3 from "./PresedentTerm3.png";
+import PresedentTerm4 from "./PresedentTerm4.png";
+import Montevideo1 from "./Montevideo1.png";
+import Montevideo2 from "./Montevideo2.png";
+import Montevideo3 from "./Montevideo3.png";
+import NewSales from "./newSales.png";
+import JoinUs1 from "./join-us1.png";
+import JoinUs2 from "./join-us2.png";
+import JoinUs3 from "./join-us3.png";
+import JoinUs4 from "./join-us4.png";
 
 const Assets = {
+  JoinUs1,
+  JoinUs2,
+  JoinUs3,
+  JoinUs4,
+  NewSales,
+  Montevideo1,
+  Montevideo2,
+  Montevideo3,
+  PresedentTerm1,
+  PresedentTerm2,
+  PresedentTerm3,
+  PresedentTerm4,
+  Liberary,
+  Sports1,
+  Sports2,
+  Sports3,
+  Sports4,
+  Statistic,
+  Google,
+  User,
+  ShieldCheck,
+  More,
+  CheckBadge,
+  MoneyBag,
+  RepeatOne,
+  Snow2,
   CodeConduct,
   Diversity,
   GrassRoots,
   Accessibility,
   RouseConsultancy,
-
+  Avatar3,
   EducationResourceHub,
   OnboardingTransisitonProcess,
   PricingRate,

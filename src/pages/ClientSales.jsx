@@ -71,26 +71,88 @@ export default function ClientSales() {
             in place
           </p>
         </div>
-        <div className="flex flex-col w-full md:flex-row  justify-between  gap-x-2 xs:gap-10">
-          <div className="flex bg-xlGray rounded-3xl border-[1px] border-lightGray  p-10 flex-col gap-4 w-full md:w-[49%]">
-            <p className=" txet-base text-gray text-center">
-              Try something new and different for client sales, focused on
-              improving performance in a self-sustaining way.
-            </p>
-          </div>
-          <div className="flex bg-xlGray rounded-3xl border-[1px] border-lightGray  p-10 flex-col gap-4 w-full md:w-[49%]">
-            <p className=" txet-base text-gray text-center">
-              Try something less costly and less risky than hiring another sales
-              VP for 100k+ / year, or giving up your equity (potentially
-              millions) to a consultant.
-            </p>
-          </div>
-          <div className="flex bg-xlGray rounded-3xl border-[1px] border-lightGray  p-10 flex-col gap-4 w-full md:w-[49%]">
-            <p className=" txet-base text-gray text-center">
-              Try something more practical than a typical consultant, that makes
-              your sales team more self-sustaining without unnecessary
-              oversight.
-            </p>
+        <div className="flex flex-col gap-8">
+          <p className="text-lightGreen text-base font-normal text-center md:text-left">
+            Why choose us?
+          </p>
+          <h1 className="text-darkGreen text-4xl md:text-5xl font-semibold font-primary-md text-center md:text-left">
+            Try something new and different
+          </h1>
+          <p className="text-base font-normal text-gray text-center md:text-left">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua minim
+            veniam.
+          </p>
+          <div className="flex flex-col md:flex-row md:justify-between">
+            <div className="flex flex-col gap-8 md:gap-20">
+              <div className="flex flex-col items-center md:flex-row md:items-start gap-5">
+                <div className="h-14 w-14 md:w-20">
+                  <img
+                    src={Images?.Chart2}
+                    alt=""
+                    className="rounded-full p-2 bg-lightPink"
+                    onClick={() => {}}
+                  />
+                </div>
+                <div className="flex flex-col">
+                  <p className="text-lg md:text-xl font-semibold text-green text-center md:text-left">
+                    Focused on improving sales
+                  </p>
+                  <p className="text-base font-normal text-gray text-center md:text-left">
+                    Try something new and different, completely focused on
+                    improving sales performance in a self-sustaining way.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col items-center md:flex-row md:items-start gap-5">
+                <div className="w-14 md:w-20">
+                  <img
+                    src={Images?.ClipBoard}
+                    alt=""
+                    className="rounded-full p-1 bg-lightPink"
+                    onClick={() => {}}
+                  />
+                </div>
+                <div className="flex flex-col">
+                  <p className="text-lg md:text-xl font-semibold text-green text-center md:text-left">
+                    More practical than a typical consultant
+                  </p>
+                  <p className="text-base font-normal text-gray text-center md:text-left">
+                    Try something more practical than a typical consultant, that
+                    makes your sales team more self-sustaining without
+                    unnecessary oversight.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col items-center md:flex-row md:items-start gap-5">
+                <div className="h-14 w-14 md:w-20">
+                  <img
+                    src={Images?.Dollar}
+                    alt=""
+                    className="rounded-full p-1 bg-lightPink"
+                    onClick={() => {}}
+                  />
+                </div>
+                <div className="flex flex-col">
+                  <p className="text-lg md:text-xl font-semibold text-green text-center md:text-left">
+                    Less costly and less risky
+                  </p>
+                  <p className="text-base font-normal text-gray text-center md:text-left">
+                    Try something less costly and less risky than hiring another
+                    sales VP for 100k+ / year, or giving up your equity
+                    (potentially millions) to a consultant.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="flex justify-center md:justify-end">
+              <img
+                src={Images?.Avatar2}
+                alt=""
+                className=" w-56  md:w-96"
+                onClick={() => {}}
+              />
+            </div>
           </div>
         </div>
         <div className="flex flex-col gap-4 py-[50px] ">
