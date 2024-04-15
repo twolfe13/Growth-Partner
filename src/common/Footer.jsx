@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Images } from "../assets";
+import { useNavigate } from "react-router-dom";
 
 const Menus = [
   { title: "Home", url: "/" },
@@ -19,6 +20,7 @@ const Legal = [
 ];
 export default function Footer() {
   const [email, setEmail] = useState(null);
+  const navigate = useNavigate();
   const onChange = (e) => {
     setEmail(e.target.value);
   };
@@ -55,6 +57,7 @@ export default function Footer() {
               <div
                 id={index}
                 className=" cursor-pointer text-white hover:underline"
+                onClick={()=>{navigate(item?.url)}}
               >
                 {item?.title}
               </div>

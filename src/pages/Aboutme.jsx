@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import LandingImage from "../components/home/LandingImage";
 import { Images } from "../assets";
+import Footer from "../common/Footer";
 
 const textData = [
   "The following year in 2012, I applied for VP of Business Development and got it.   After getting leads, going to meetings with CEOs myself, I was then thrust into being responsible for my own team of sales people.  I led team meetings, trained and guided people to produce sales activity.",
@@ -630,6 +631,7 @@ export default function Aboutme() {
           </div>
         ))}
       </div>
+      <Footer/>
     </div>
   );
 }

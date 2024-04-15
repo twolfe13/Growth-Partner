@@ -50,7 +50,7 @@ export default function home() {
                 countries.
               </p>
             </div>
-            <div className="flex flex-col justify-center items-center md:justify-end mb-20">
+            {/* <div className="flex flex-col justify-center items-center md:justify-end mb-20">
               <div className="flex flex-col gap-2 ">
                 <div className="h-11 w-[170px] rounded-[68px] border-[2px] border-white relative overflow-hidden hover:bg-gray">
                   <div className="bg-lightGray opacity-50 rounded-[68px] w-full h-full flex justify-center items-center">
@@ -67,7 +67,7 @@ export default function home() {
                   In Person Preferred
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
