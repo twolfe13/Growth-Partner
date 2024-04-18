@@ -6,16 +6,7 @@ import LandingImage from "../components/home/LandingImage.jsx";
 export default function home() {
   return (
     <div>
-      {/* <LandingImage
-        img={Images?.Landing}
-        highlight=" Proven strategies backed by science for success."
-        heading="More Practical Sales Consulting"
-        content="For CEOs and Sales Leaders committed to a sales 'scale up' -
-              encompassing performance, structure, and sales talent engagement."
-        className="mx-10"
-        hStyle="text-lg md:text-5xl text-white"
-        cStyle="text-lg md:text-xl text-white"
-      /> */}
+
       <div
         className="bg-contain md:bg-cover"
         style={{ backgroundImage: `url(${Images?.Landing})` }}
@@ -25,9 +16,7 @@ export default function home() {
             <div
               className={`flex  flex-col gap-4 h-full justify-center items-center mb-20 `}
             >
-              <p className=" text-base font-normal text-white text-center">
-                Proven strategies backed by science for success.
-              </p>
+           
               <p
                 className={` text-3xl md:text-[52px] text-white text-center leading-tight `}
               >

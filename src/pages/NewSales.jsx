@@ -103,8 +103,8 @@ export default function NewSales() {
         </div>
       </div>
       <div className="flex flex-col w-full px-10 justify-between gap-6 pb-[50px]  md:px-[100px]  ">
-        <div className="flex flex-col md:flex-row gap-[53px]">
-          <h1 className=" text-black text-5xl font-primary-bd">
+        <div className="flex flex-col md:flex-row gap-[53px] w-full ">
+          <h1 className=" text-[#333333] text-5xl font-primary-bd w-2/6 leading-relaxed">
             {" "}
             Healthy{" "}
             <span className=" text-5xl text-green font-primary-bd">
@@ -112,7 +112,7 @@ export default function NewSales() {
             </span>{" "}
             pipeline{" "}
           </h1>
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 w-4/6">
             <p className="text-base text-gray">
               A healthy sales pipeline generates new leads consistently - and
               importantly for management - in a repeatable manner.

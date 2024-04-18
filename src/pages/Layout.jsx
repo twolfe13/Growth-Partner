@@ -51,7 +51,7 @@ export default function Layout() {
           <img
             src={Images?.logo}
             alt=""
-            className="p-3 h-12 w-12 cursor-pointer"
+            className="p-3 h-20 w-20 cursor-pointer"
           />
 
           {/* Desktop Navigation */}
@@ -79,12 +79,12 @@ export default function Layout() {
           {/* Call to Action */}
           <div className="hidden md:flex flex-col items-center gap-1">
             <div
-              className="h-11 w-[134px] bg-green rounded-full text-white text-center flex justify-center items-center cursor-pointer"
+              className="h-12 w-auto px-6 bg-green rounded-full text-white text-center flex justify-center items-center cursor-pointer"
               onClick={() => activeTab(-1, "/meet")}
             >
-              let's meet
+              Delivery Model Info
             </div>
-            <p className="text-xs font-normal text-gray">In Person Preferred</p>
+            
           </div>
         </div>
       </div>
