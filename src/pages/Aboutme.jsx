@@ -152,7 +152,7 @@ export default function Aboutme() {
           </p>
         </div>
         <div className="flex flex-col gap-2 justify-center md:justify-end  w-full md:w-1/3 h-96 items-center">
-          <img src={Images?.Andrea} alt="" className="" onClick={() => {}} />
+          <img src={Images?.Wolfe-4} alt="" className="" onClick={() => {}} />
         </div>
       </div>
       {!showMore && (
