@@ -504,14 +504,6 @@ export default function home() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center md:justify-end">
-            <img
-              src={Images?.Avatar2}
-              alt=""
-              className="h-56 w-56 md:h-96 md:w-96"
-              onClick={() => {}}
-            />
-          </div>
         </div>
       </div>
 
