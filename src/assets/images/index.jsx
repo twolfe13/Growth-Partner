@@ -130,7 +130,7 @@ const Assets = {
   City,
   Usb,
   Frame,
-  Andrea,
+  Wolfe,
   Protection,
   ClipBoard,
   Dollar,
