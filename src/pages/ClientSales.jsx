@@ -145,14 +145,7 @@ export default function ClientSales() {
                 </div>
               </div>
             </div>
-            <div className="flex justify-center md:justify-end">
-              <img
-                src={Images?.Avatar2}
-                alt=""
-                className=" w-56  md:w-96"
-                onClick={() => {}}
-              />
-            </div>
+    
           </div>
         </div>
         <div className="flex flex-col gap-4 py-[50px] ">
