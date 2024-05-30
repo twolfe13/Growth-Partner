@@ -264,14 +264,7 @@ export default function NewSales() {
                 </div>
               </div>
             </div>
-            <div className="flex justify-center md:justify-end">
-              <img
-                src={Images?.Avatar2}
-                alt=""
-                className=" w-56  md:w-96"
-                onClick={() => {}}
-              />
-            </div>
+            
           </div>
         </div>
       </div>
