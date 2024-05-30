@@ -18,7 +18,6 @@ import Wolfe from "./wolfe.png";
 import Protection from "./protection.png";
 import ClipBoard from "./clipboard.png";
 import Dollar from "./dollar.png";
-import Avatar2 from "./Avatar2.png";
 import Mask from "./Mask.png";
 import MaskNewSales from "./MaskNewSales.png";
 import MaskAboutMe from "./MaskAboutMe.png";
@@ -134,7 +133,6 @@ const Assets = {
   Protection,
   ClipBoard,
   Dollar,
-  Avatar2,
   Mask,
   MaskNewSales,
   MaskAboutMe,
