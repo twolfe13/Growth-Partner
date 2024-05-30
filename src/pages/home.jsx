@@ -359,7 +359,7 @@ export default function home() {
           <div className="my-2 md:my-0 md:w-1/2 flex justify-end ">
             <div>
               <img
-                src={Images?.Andrea}
+                src={Images?.Wolfe}
                 alt=""
                 height={600}
                 width={400}
