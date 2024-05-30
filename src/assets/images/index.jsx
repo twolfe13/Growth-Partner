@@ -14,7 +14,7 @@ import HandStars from "./hand-stars.png";
 import SuspensionBolt from "./suspension-bolt.png";
 import Userhands from "./user-hands.png";
 import Frame from "./frame.png";
-import Andrea from "./andrea.png";
+import Wolfe from "./wolfe.png";
 import Protection from "./protection.png";
 import ClipBoard from "./clipboard.png";
 import Dollar from "./dollar.png";
