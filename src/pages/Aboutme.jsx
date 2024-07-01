@@ -126,7 +126,7 @@ export default function Aboutme() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row  w-full px-10 justify-between py-[150px] gap-10 md:px-[100px]">
+      <div className="flex flex-col md:flex-row  w-full px-10 justify-between py-[200px] gap-10 md:px-[100px]">
         <div className="flex flex-col gap-6 w-full md:w-2/3">
           <h2 className=" text-4xl text-black font-primary-bd">
             My Career as a Salesperson -
