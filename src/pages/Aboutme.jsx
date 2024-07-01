@@ -151,8 +151,8 @@ export default function Aboutme() {
             team).
           </p>
         </div>
-        <div className="flex flex-col gap-2 justify-center md:justify-end items-center">
-          <img src={Images?.Wolfe} alt="" className="w-1/2 h-1/2" onClick={() => {}} />
+        <div className="flex flex-col gap-2 justify-center md:justify-end w-full md:w-1/3 h-96 md:h-64 items-center">
+          <img src={Images?.Wolfe} alt="" className="" onClick={() => {}} />
         </div>
       </div>
       {!showMore && (
