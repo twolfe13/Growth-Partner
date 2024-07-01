@@ -32,8 +32,8 @@ export default function home() {
               />
 
               <p className={` text-lg md:text-xl text-white `}>
-                I help CEOs, Founders and Sales Leaders achieve successful "Go To Market" or sales "Scale Up" initiatives - utilizing my over 13 years of experience including "on the ground" practical sales roles (SDR, AE, AM) -
-                and being responsible for sales strategy (GTM plan, process design, materials, CRM) at various companies at different stages of growth - accross North and South America. 
+                I help CEOs, Founders and Sales Leaders achieve successful "Go To Market" or sales "Scale Up" initiatives - utilizing my over 13 years of experience including practical sales roles "on the ground" (SDR, AE, AM) -
+                and being responsible for strategy (GTM plan, process design, materials, CRM) at various companies at different stages of growth - accross North and South America. 
               </p>
             </div>
             {/* <div className="flex flex-col justify-center items-center md:justify-end mb-20">
