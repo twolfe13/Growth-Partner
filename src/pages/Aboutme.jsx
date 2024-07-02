@@ -151,14 +151,14 @@ export default function Aboutme() {
             team).
           </p>
         </div>
-        <div className="flex flex-col gap-2 justify-center md:justify-end w-full md:w-1/5 h-96 md:h-64 items-center pt-80">
+        <div className="flex flex-col gap-2 justify-center md:justify-end w-full md:w-1/5 h-96 md:h-64 items-center pt-100">
           <img src={Images?.Wolfe} alt="" className="" onClick={() => {}} />
         </div>
       </div>
       {!showMore && (
         <div className="flex justify-center items-center w-full ">
           <h6
-            className=" text-green text-base text-center py-[20px] font-primary-bd cursor-pointer"
+            className=" text-green text-base text-center py-[10px] font-primary-bd cursor-pointer"
             onClick={() => {
               setShowMore(!showMore);
             }}
