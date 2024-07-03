@@ -101,7 +101,7 @@ export default function Aboutme() {
         cStyle="text-lg md:text-xl text-white"
       />
       <div className="flex flex-row  w-full px-10 justify-between py-[50px] gap-10 md:px-[100px] bg-xlGray">
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col">
           <img src={Images?.Google} alt="" className="" onClick={() => {}} />
         </div>
         <div className="flex flex-col gap-6">
