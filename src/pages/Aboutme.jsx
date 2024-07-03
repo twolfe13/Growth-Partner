@@ -146,7 +146,7 @@ export default function Aboutme() {
             partnerships), and Sales Manager or GTM Consultant (responsible for a sales team; responsible for sales process design, CRM design, planning/forecasting, and other strategy)
           </p>
           <p className=" text-gray text-base ">
-          A few accomplishments: Helping bring three organizations to market successfully in very competitive markets (IT Services and Recruiting markets), generating new sales with multiple billion dollar companies, and closing multiple $1M+ sales deals.
+          A few highlights: Helping bring 3 organizations to market successfully in very competitive markets (IT Services and Recruiting markets), generating new sales with multiple billion dollar companies, and closing multiple $1M+ sales deals.
           </p>
         </div>
         <div className="flex flex-col gap-2 justify-center md:justify-end w-full md:w-1/5 h-96 items-center">
