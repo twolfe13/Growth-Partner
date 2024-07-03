@@ -101,27 +101,26 @@ export default function Aboutme() {
         cStyle="text-lg md:text-xl text-white"
       />
       <div className="flex flex-row  w-full px-10 justify-between py-[50px] gap-10 md:px-[100px] bg-xlGray">
-        <div className="flex flex-col">
+        <div className="flex flex-col items-center">
           <img src={Images?.Google} alt="" className="" onClick={() => {}} />
         </div>
         <div className="flex flex-col gap-6">
           <p className="text-gray text-base">
-            Someone living in a certain place all their life will, to a strong
+            Someone living in a certain place all their life will - to a strong
             extent, interpret the world through that place's environment,
-            cultural beliefs, and people they knew and observed over time. I
-            believe what I can offer in business, is a direct product of my life
-            and business experiences - including the different places, wins,
-            losses, good times and hard times.
+            cultural beliefs, and people they knew and observed over time. 
           </p>
           <p className="text-gray text-base">
-            I also find it interesting and useful to understand the nuances of
+            I believe what I can offer as a consultant, is a direct product of my life
+            and business experiences - including the different places, wins,
+            losses, good times and hard times. I also find it interesting and useful to understand the nuances of
             who people are, especially in the practically unlimited sea of
             people doing business out there.
           </p>
           <p className="text-gray text-base">
-            While personally I base business relationships on mutual results or
-            value over time, I think where someone's been is good to know when
-            it comes to meeting new people. And I think where we've been and how
+            While personally I base my business relationships on mutual results and
+            values over time - I believe where someone's been is good to know when
+            it comes to meeting new people. And I believe where we've been and how
             it impacts who we are makes us human, and is worth sharing.
           </p>
         </div>
@@ -132,13 +131,10 @@ export default function Aboutme() {
             My Career as a Salesperson -
           </h2>
           <h5 className=" text-lg text-black font-primary-md ">
-            More than 10 years of "on the ground", dynamic, hands-on experience
-            - generating my own leads and compassing both new and client sales.
+            More than 13 years of high performing, dynamic, hands-on experience
+            working for different companies accross two continents - always generating my own leads, and encompassing both new and client sales work.
           </h5>
-          <p className=" text-gray text-base ">
-            See resume for full experience.. this is condensed, doesn't have
-            Springboard.
-          </p>
+
           <p className=" text-gray text-base ">
             Unlike many sales growth consultants, my background isn't in finance
             or operations - my background is 100% sales.
@@ -147,8 +143,11 @@ export default function Aboutme() {
             My experience covers practically all sales roles relevant today -
             SDR (lead generator), Account Executive (AE), Account Manager (AM /
             client growth), Strategic Partnership (lead generation
-            partnerships), and Sales Manager (responsible for my own sales
-            team).
+            partnerships), and Sales Manager or GTM Consultant (responsible for a sales team; responsible for sales process design, CRM design, planning/forecasting, and other strategy)
+          </p>
+          <p className=" text-gray text-base ">
+          See resume for full experience.. this is condensed, doesn't have
+          Springboard.
           </p>
         </div>
         <div className="flex flex-col gap-2 justify-center md:justify-end w-full md:w-1/5 h-96 items-center">
