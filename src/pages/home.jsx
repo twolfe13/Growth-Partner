@@ -32,8 +32,7 @@ export default function home() {
               />
 
               <p className={` text-lg md:text-xl text-white `}>
-                I help CEOs, Founders and Sales Leaders achieve successful "Go To Market" or sales "Scale Up" initiatives - utilizing my over 13 years of experience including practical sales roles "on the ground" (SDR, AE, AM) -
-                and being responsible for strategy (GTM plan, process design, materials, CRM) at various companies at different stages of growth - across North and South America. 
+                I help CEOs, Founders and Sales Leaders achieve successful "Go To Market" or sales "Scale Up" initiatives. 
               </p>
             </div>
             {/* <div className="flex flex-col justify-center items-center md:justify-end mb-20">
@@ -65,7 +64,8 @@ export default function home() {
             encompassing performance, structure, and sales talent engagement.
           </h4>
           <p className=" text-base text-gray">
-            Leverage my “on the Ground” experience to help you grow your sales,
+            Utilize 13+ years of experience excelling in practical sales roles (SDR, AE, AM) -
+                and being responsible for strategy (GTM plan, process design, materials, CRM) working for different growth companies - across North and South America. Leverage my “on the Ground” experience to help you grow your sales,
             in a repeatable way.{" "}
           </p>
           <div
