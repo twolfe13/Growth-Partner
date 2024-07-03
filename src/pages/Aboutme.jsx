@@ -149,7 +149,7 @@ export default function Aboutme() {
           A few highlights: Helping bring 3 organizations to market successfully in very competitive markets (IT Services and Recruiting markets), generating new sales with multiple billion dollar companies, and closing multiple $1M+ sales deals.
           </p>
         </div>
-        <div className="flex flex-col gap-2 md:justify-end md:w-1/5 h-96 items-center">
+        <div className="flex flex-col gap-2 justify-end md:w-1/5 h-96 items-center">
           <img src={Images?.Wolfe} alt="" className="" onClick={() => {}} />
         </div>
       </div>
