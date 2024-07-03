@@ -131,13 +131,13 @@ export default function Aboutme() {
             My Career as a Salesperson -
           </h2>
           <h5 className=" text-lg text-black font-primary-md ">
-            More than 13 years of high performing, dynamic, hands-on experience
-            working for different companies accross two continents - always generating my own leads, and encompassing both new and client sales work.
+            13+ years of high performing, dynamic, hands-on experience
+            working for different companies accross 2 continents - always generating my own leads, encompassing both new / client sales implementation and strategy work.
           </h5>
 
           <p className=" text-gray text-base ">
-            Unlike many sales growth consultants, my background isn't in finance
-            or operations - my background is 100% sales.
+            Unlike many sales growth consultants, my background isn't mostly made up of Finance or Operations experience 
+            - my background is 100% sales.
           </p>
           <p className=" text-gray text-base ">
             My experience covers practically all sales roles relevant today -
