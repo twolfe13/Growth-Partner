@@ -136,7 +136,7 @@ export default function Aboutme() {
           </h5>
 
           <h5 className=" text-lg text-black font-primary-md ">
-            Always generating my own leads, and working on both new / client sales implementation and strategy.
+            Always generating my own leads, and working on both new / client sales strategy and implementation - resulting in millions of new sales revenue.
           </h5>
 
           <p className=" text-gray text-base ">
