@@ -132,7 +132,11 @@ export default function Aboutme() {
           </h2>
           <h5 className=" text-lg text-black font-primary-md ">
             13+ years of high performing, dynamic, hands-on experience
-            working for different companies accross 2 continents.  Always generating my own leads, and working on both new / client sales implementation and strategy. 
+            working for different companies accross 2 continents.   
+          </h5>
+
+          <h5 className=" text-lg text-black font-primary-md ">
+            Always generating my own leads, and working on both new / client sales implementation and strategy.
           </h5>
 
           <p className=" text-gray text-base ">
