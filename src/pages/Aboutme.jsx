@@ -303,7 +303,7 @@ export default function Aboutme() {
                   <img
                     src={Images?.Sports3} 
                     alt=""
-                    // height={50}
+                    height={400}  
                     width={""}
                     className={`items-center `}
                     onClick={() => {}}
