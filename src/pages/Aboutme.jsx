@@ -205,11 +205,11 @@ export default function Aboutme() {
               <img
                 src={Images?.PresedentTerm1} 
                 alt=""
-                className=" h-[400px]"
+                className=" h-[400px] w-1/2 md:w-1/3"
                 onClick={() => {}}
               />
 
-              <h3 className=" text-3xl text-black font-primary-md">
+              <h3 className=" text-3xl text-black font-primary-md pt-3">
                 1st Sales Team & AIESEC President
               </h3>
               <p className=" text-black text-xl">2012 - 2014</p>
