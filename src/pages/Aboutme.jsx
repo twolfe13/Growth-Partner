@@ -221,7 +221,7 @@ export default function Aboutme() {
             </div>
           </div>
           <div className="flex flex-col md:flex-row  w-full px-10 justify-between py-[50px] gap-10 md:px-[100px] bg-lightPink">
-            <div className="flex flex-row  md:flex-col gap-6 md:w-1/3  ">
+            <div className="flex flex-col gap-6 md:w-1/3  ">
               <div className=" flex flex-col  gap-4 ">
                 <div className=" w-full">
                   <img
