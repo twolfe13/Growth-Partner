@@ -289,9 +289,9 @@ export default function Aboutme() {
             <div className="flex flex-col md:flex-row w-full gap-4">
               <div className="flex flex-col md:w-2/3">
                 <h5 className=" text-lg text-black w-1/2">
-                  Suburban Chicago, Illinois The Base / Where I'm from -
-                  1991(b.) to 2010
-                </h5>
+                  Chicago and Suburban Illinois, Where I'm from -
+                  1991(b.) to 2015
+                </h5>5
                 <ul className=" pl-4">
                   {textWhereIamFrom?.map((item) => (
                     <li className=" text-gray text-sm list-disc">{item}</li>
@@ -342,31 +342,7 @@ export default function Aboutme() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row  w-full px-10 justify-between pb-[50px] gap-10 md:px-[100px]">
-            <div className="flex flex-col md:flex-row w-full gap-4">
-              <div className="flex flex-col md:w-2/3">
-                <h5 className=" text-lg text-black w-full md:w-1/2">
-                  Suburban Chicago, Illinois The Base / Where I'm from -
-                  1991(b.) to 2010
-                </h5>
-                <ul className=" pl-4">
-                  {ChicagoText?.map((item) => (
-                    <li className=" text-gray text-sm list-disc">{item}</li>
-                  ))}
-                </ul>
-              </div>
-              <div className="flex flex-col md:w-1/3">
-                <img
-                  src={Images?.Statistic}
-                  alt=""
-                  // height={50}
-                  width={""}
-                  className={`items-center `}
-                  onClick={() => {}}
-                />
-              </div>
-            </div>
-          </div>
+         
           <div className="flex flex-col md:flex-row  w-full px-10 justify-between pb-[50px] gap-10 md:px-[100px]">
             <div className="flex flex-col  w-full gap-6">
               <div className="flex flex-col">
