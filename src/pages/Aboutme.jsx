@@ -235,7 +235,7 @@ export default function Aboutme() {
                 </div>
                 <div className="flex flex-row w-full justify-between  ">
                   <img
-                    src={Images?.Liberary}
+                    src={Images?.RouseConsultancy} 
                     alt=""
                     // height={50}
                     width={"33%"}
@@ -418,7 +418,7 @@ export default function Aboutme() {
                     onClick={() => {}}
                   />
                   <img
-                    src={Images?.RouseConsultancy}
+                    src={Images?.Liberary}
                     alt=""
                     // height={50}
                     width={"24%"}
