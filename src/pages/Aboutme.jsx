@@ -301,7 +301,7 @@ export default function Aboutme() {
               <div className=" flex flex-col md:w-1/3 gap-4">
                 <div className=" w-full">
                   <img
-                    src={Images?.Sports1}
+                    src={Images?.Sports3} 
                     alt=""
                     // height={50}
                     width={""}
@@ -320,7 +320,7 @@ export default function Aboutme() {
                   />
 
                   <img
-                    src={Images?.Sports3}
+                    src={Images?.Sports1}
                     alt=""
                     // height={50}
                     width={"33%"}
