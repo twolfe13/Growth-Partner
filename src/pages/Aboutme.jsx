@@ -225,7 +225,7 @@ export default function Aboutme() {
               <div className=" flex flex-col  gap-4 ">
                 <div className=" w-full">
                   <img
-                    src={Images?.Liberary}
+                    src={Images?.PresedentTerm2} 
                     alt=""
                     // height={50}
                     width={""}
@@ -235,7 +235,7 @@ export default function Aboutme() {
                 </div>
                 <div className="flex flex-row w-full justify-between  ">
                   <img
-                    src={Images?.PresedentTerm2}
+                    src={Images?.Liberary}
                     alt=""
                     // height={50}
                     width={"33%"}
