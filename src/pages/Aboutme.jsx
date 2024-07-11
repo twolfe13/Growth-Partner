@@ -203,7 +203,7 @@ export default function Aboutme() {
           <div className="flex flex-col md:flex-row  w-full px-10 justify-between py-[50px] gap-10 md:px-[100px]">
             <div className="flex flex-col md:w-1/3">
               <img
-                src={Images?.Liberary}
+                src={Images?.PresedentTerm1} 
                 alt=""
                 className=" h-[400px]"
                 onClick={() => {}}
@@ -225,7 +225,7 @@ export default function Aboutme() {
               <div className=" flex flex-col  gap-4 ">
                 <div className=" w-full">
                   <img
-                    src={Images?.PresedentTerm1}
+                    src={Images?.Liberary}
                     alt=""
                     // height={50}
                     width={""}
