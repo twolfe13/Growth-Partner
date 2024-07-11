@@ -205,7 +205,7 @@ export default function Aboutme() {
               <img
                 src={Images?.PresedentTerm1} 
                 alt=""
-                className=" h-[400px] w-1/2 md:w-1/3"
+                className=" h-[380px]"
                 onClick={() => {}}
               />
 
