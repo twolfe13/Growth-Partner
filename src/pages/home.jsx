@@ -353,7 +353,7 @@ export default function home() {
               sales - the "lifeblood" of any company.
             </p>
           </div>
-          <div className="my-2 md:my-0 md:w-1/2 flex justify-end ">
+          <div className="my-2 md:w-1/2 flex justify-end md:justify-center">
             <div>
               <img
                 src={Images?.Wolfe}
