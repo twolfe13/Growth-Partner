@@ -112,7 +112,7 @@ export default function NewSales() {
             </span>{" "}
             pipeline{" "}
           </h1>
-          <div className="flex flex-col gap-6 w-4/6">
+          <div className="flex flex-col gap-6 md: w-4/6 w-full">
             <p className="text-base text-gray">
               A healthy sales pipeline generates new leads consistently - and
               importantly for management - in a repeatable manner.
