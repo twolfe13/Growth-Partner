@@ -64,7 +64,6 @@ export default function Footer() {
             ))}
           </div>
         </div>
-        </div>
         <div className="flex flex-col w-full md:w-1/4   gap-y-4">
           <p className="text-base text-white font-bold">Subscribe</p>
           <div className="text-white text-base font-normal ">
