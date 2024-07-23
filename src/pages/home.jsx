@@ -366,29 +366,7 @@ export default function home() {
             </div>
           </div>
 
-          <div
-            className=" hidden absolute top-1/4 left-2/4 transform -translate-x-2/5 -translate-y-1/2 w-56 h-28 bg-white shadow-lg border-[1px] border-lightGray p-6 rounded-2xl md:flex justify-between items-center"
-            style={{ boxShadow: "0px 14px 18px 0px rgba(0, 0, 0, 0.04)" }}
-          >
-            <div>
-              <img
-                src={Images?.Protection}
-                alt=""
-                height={56}
-                width={56}
-                className={` items-center `}
-                onClick={() => {}}
-              />
-            </div>
-            <div className="flex flex-col">
-              <p className=" text-2xl font-bold font-primary-Ex-bd text-black">
-                100%
-              </p>
-              <p className=" text-xs font-bold  text-mdLightGray">
-                Success rate this year
-              </p>
-            </div>
-          </div>
+    
         </div>
       </div>
 
