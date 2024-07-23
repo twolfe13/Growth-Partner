@@ -65,33 +65,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex flex-col w-full md:w-1/4   gap-y-4">
-          <p className="text-base text-white font-bold">Subscribe</p>
-          <div className="text-white text-base font-normal ">
-            Sign up for Alerts, Special Offers, Education and Updates
-          </div>
-          <div className="flex items-center h-full">
-            <input
-              onChange={(event) => {
-                onChange(event);
-              }}
-              value={email}
-              className={` w-full bg-white text-gray p-2 text-[16px] rounded-l-[4px] focus:outline-none  `}
-              type={"text"}
-              placeholder={"Enter Your E-mail"}
-            />
-            <div className="bg-lightGreen w-12 h-10 items-center flex justify-center rounded-r-[4px]">
-              <img
-                src={Images?.Arrow}
-                alt=""
-                height={20}
-                width={20}
-                className={` items-center `}
-                onClick={() => {
-                  sendEmail();
-                }}
-              />
-            </div>
-          </div>
+
           <div className="flex items-center gap-x-5 py-4">
             <img
               src={Images?.Facebook}
