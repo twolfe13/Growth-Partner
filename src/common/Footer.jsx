@@ -64,18 +64,6 @@ export default function Footer() {
             ))}
           </div>
         </div>
-        <div className="flex flex-col w-full md:w-1/4 ">
-          <p className="text-base text-white  font-primary-bd">Legal</p>
-          <div className="flex flex-col  gap-2 my-3">
-            {Legal.map((item, index) => (
-              <div
-                id={index}
-                className=" cursor-pointer text-white hover:underline"
-              >
-                {item?.title}
-              </div>
-            ))}
-          </div>
         </div>
         <div className="flex flex-col w-full md:w-1/4   gap-y-4">
           <p className="text-base text-white font-bold">Subscribe</p>
