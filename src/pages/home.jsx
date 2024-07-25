@@ -307,7 +307,7 @@ export default function home() {
       <div className=" pt-10 px-10 md:px-[100px] pb-12">
         <div className="flex flex-col md:flex-row gap-8">
           <h4 className=" text-3xl text-darkBlack font-primary-bd">
-            Where does my role as a consultant fit in, to your sales growth?
+            Where does my role as a consultant fit in with your sales growth?
           </h4>
           <div className="flex flex-col gap-8">
             <p className=" text-base font-normal text-gray">
