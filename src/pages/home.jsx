@@ -397,10 +397,9 @@ export default function home() {
           Through my sales career experience, I bring a deep understanding of
           what fails and what succeeds to impact results, on the surface and
           behind the scenes. As well as how to motivate and engage salespeople. 
-          I can be as hands-on with you and your team as needed. I've "hunted"
-          my own leads my whole sales career, and led every stage of sales
-          processes from targeting the ideal lead to making it a billable
-          client.{" "}
+          I can be as hands-on with you and your team as needed. I've led every stage of sales
+          process from targeting the ideal lead, to making it a billable
+          client, to upselling the account.{" "}
         </p>
       </div>
 
