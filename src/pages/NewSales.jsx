@@ -55,7 +55,7 @@ export default function NewSales() {
       />
       <div className="flex flex-col w-full px-10 justify-between py-[50px] gap-y-20 md:px-[100px]  ">
         <div className="flex flex-col md:flex-row">
-          <div className="flex flex-col gap-6 w-full md:w-2/3">
+          <div className="flex flex-col gap-6 w-full px-10 md:w-2/3">
             <h5 className=" text-lg text-black font-primary-md">
               In a real sales scale-up, you can’t rely on a single “rainmaker”
               salesperson, nor be doing sales yourself as the CEO
