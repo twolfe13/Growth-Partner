@@ -344,8 +344,8 @@ export default function home() {
             </h5>
             <p className=" text-xl text-gray font-normal">
               Utilizing my career in professional services, I work with my
-              clients in a customized manner - integrating my work directly with
-              you and your company, based on your individual needs.
+              clients via a completely customized Proposal - aimed directly at your 
+              company's most relevant and urgent sales growth needs. 
             </p>
             <p className=" text-xl text-gray font-normal">
               My consulting offering adds value via both strategic ideation AND
@@ -384,14 +384,14 @@ export default function home() {
           people 
         </p>
         <p className=" text-base  text-mdGray font-normal">
-          In my case, I've been a sales person for over 10 years - and I truly
-          appreciate sales as a disciplined profession. My experience
-          encompasses both high performing sales activity, and also transforming
-          the sales activity into a repeatable, scalable underlying structure -
-          independent from activity (calls, meetings, closed deals generated)
-          itself.  I've designed underlying structure for 3 different sales
-          organizations, and implemented them "on the ground"... even getting my
-          own leads my entire career.
+          In my case, I've done sales work at a high level for over 13 years - and I truly
+          appreciate sales as a professional discipline. My experience
+          encompasses both sales activity "on the ground", and higher level strategy - transforming
+          sales activity into a repeatable, scalable underlying structure -
+          complementary of the calls, meetings, and $6M+ in closed deals generated.
+          I've designed underlying structure for 3 different sales
+          organizations, and implemented them (not just talked about it). I've even been responsible for creating my
+          own leads, for my entire B2B sales career begining when I was 20 years old.
         </p>
         <p className=" text-base  text-mdGray font-normal">
           Through my sales career experience, I bring a deep understanding of
