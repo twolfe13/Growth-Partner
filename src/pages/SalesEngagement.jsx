@@ -82,7 +82,7 @@ export default function SalesEngagement() {
                   index != salesEngagement?.length - 1 && "border-b-[1px]"
                 } border-lightGray`}
               >
-                <h4 className="flex text-black  text-2xl pb-3 md:w-1/4 md:pr-5 items-center ">
+                <h4 className="flex text-black text-center  text-2xl pb-3 md:w-1/4 md:pr-5 items-center ">
                   {item?.key}
                 </h4>
                 <p className=" text-gray text-center text-base w-full flex md:w-3/4">
