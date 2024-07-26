@@ -78,7 +78,7 @@ export default function SalesEngagement() {
           <div className="flex flex-col gap-4 px-10 py-10  bg-lightPink md:px-[100px] ">
             {salesEngagement?.map((item, index) => (
               <div
-                className={` flex flex-col md:flex-row w-full py-4 ${
+                className={` flex flex-col md:flex-row w-full ${
                   index != salesEngagement?.length - 1 && "border-b-[1px]"
                 } border-lightGray`}
               >
