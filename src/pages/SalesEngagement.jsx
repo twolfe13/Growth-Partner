@@ -5,7 +5,7 @@ import Footer from "../common/Footer";
 
 const salesEngagement = [
   {
-    key: "Speed up your sales team's development",
+    key: "Speed up development of your sales team",
     des: "Our work developing customized sales strategies to optimize performance, combined with practical consulting DURING implementation, can actually help your junior salespeople become seniors faster.",
   },
   {
