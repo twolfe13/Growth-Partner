@@ -10,7 +10,7 @@ const salesEngagement = [
   },
   {
     key: "Attract your ideal salesperson profile",
-    des: "We develop your ideal salesperson profile best suited for your company needs.  Companies often spend years hiring ineffective salespeople simply because they don't clearly understand what they're looking for, and how to optimize landing him/her.",
+    des: "We develop your ideal salesperson profile best suited for your company needs.  Companies often spend years hiring ineffective salespeople simply because they don't clearly understand what they're looking for, and how to optimize landing it.",
   },
   {
     key: "Ideal salesperson compensation structure",
