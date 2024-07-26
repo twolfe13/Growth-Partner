@@ -75,14 +75,14 @@ export default function SalesEngagement() {
           <p className=" text-gray text-sm text-center px-10 md:px-[100px] ">
             LI Article Chief Growth Office screenshot
           </p>
-          <div className="flex flex-col gap-4 px-10 py-10  bg-lightPink md:px-[100px] ">
+          <div className="flex flex-col gap-4 px-10 py-8  bg-lightPink md:px-[100px] ">
             {salesEngagement?.map((item, index) => (
               <div
                 className={` flex flex-col md:flex-row w-full ${
                   index != salesEngagement?.length - 1 && "border-b-[1px]"
                 } border-lightGray`}
               >
-                <h4 className="flex text-black  text-2xl pb-2 md:w-1/4 md:pr-5 items-center ">
+                <h4 className="flex text-black  text-2xl pb-3 md:w-1/4 md:pr-5 items-center ">
                   {item?.key}
                 </h4>
                 <p className=" text-gray text-center text-base w-full flex md:w-3/4">
