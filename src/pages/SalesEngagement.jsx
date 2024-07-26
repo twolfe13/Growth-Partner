@@ -9,7 +9,7 @@ const salesEngagement = [
     des: "Our work developing customized sales strategies to optimize performance, combined with practical consulting DURING implementation, can actually help your junior salespeople become seniors faster.",
   },
   {
-    key: "Ideal salesperson profile",
+    key: "Attract your ideal salesperson profile",
     des: "We develop your ideal salesperson profile best suited for your company needs.  Companies often spend years hiring ineffective salespeople simply because they don't clearly understand what they're looking for, and how to optimize getting it cost - effectively.",
   },
   {
