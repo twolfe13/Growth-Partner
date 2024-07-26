@@ -5,7 +5,7 @@ import Footer from "../common/Footer";
 
 const salesEngagement = [
   {
-    key: "Speed up the development of your sales people",
+    key: "Speed up your sales team's development",
     des: "Our work developing customized sales strategies to optimize performance, combined with practical consulting DURING implementation, can actually help your junior salespeople become seniors faster.",
   },
   {
@@ -82,7 +82,7 @@ export default function SalesEngagement() {
                   index != salesEngagement?.length - 1 && "border-b-[1px]"
                 } border-lightGray`}
               >
-                <h4 className="flex text-black  text-2xl md:w-1/4 md:pr-10 items-center ">
+                <h4 className="flex text-black  text-2xl md:w-1/4 md:pr-7 items-center ">
                   {item?.key}
                 </h4>
                 <p className=" text-gray text-center text-base w-full flex md:w-3/4">
