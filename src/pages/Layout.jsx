@@ -82,7 +82,7 @@ export default function Layout() {
               className="h-12 w-auto px-6 bg-green rounded-full text-white text-center flex justify-center items-center cursor-pointer"
               onClick={() => activeTab(-1, "/meet")}
             >
-              Delivery Model Info
+              Delivery Model
             </div>
             
           </div>
