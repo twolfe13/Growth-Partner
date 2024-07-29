@@ -159,7 +159,7 @@ export default function NewSalesInfrastructure() {
           Sales infrastructure for B2B Services Companies
         </h3>
         <div className="flex flex-col md:flex-row gap-4 pt-12">
-          <div className=" flex flex-col py-[30px] px-[42px] rounded-2xl gap-2 w-[300px] md:w-[448px] border-[1px] border-lightGray">
+          <div className=" flex flex-col py-[30px] px-[42px] rounded-2xl gap-2 w-[300px] md:w-[448px] border-[1px] border-lightGray items-center">
             <img
               src={Images?.SuspensionBolt}
               alt=""
@@ -180,7 +180,7 @@ export default function NewSalesInfrastructure() {
               E.g. Sales pitchbook, sales material, KPIs 
             </p>
           </div>
-          <div className=" flex flex-col py-[30px] px-[42px] rounded-2xl gap-2 w-[300px] md:w-[448px] border-[1px] border-lightGray">
+          <div className=" flex flex-col py-[30px] px-[42px] rounded-2xl gap-2 w-[300px] md:w-[448px] border-[1px] border-lightGray items-center">
             <img
               src={Images?.SuspensionBolt}
               alt=""
