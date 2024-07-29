@@ -184,7 +184,7 @@ export default function SalesEngagement() {
                   Examples of what I work on for
                 </h2>
                 <h2 className=" text-base md:text-3xl text-darkGreen font-primary-md md:text-center">
-                  Sales Talent Management
+                  Sales Engagement
                 </h2>
               </div>
               <div className=" h-12 w-52 text-center xs:text-sm  bg-darkGreen rounded-[68px] py-[10px] md:px-6  flex items-center  justify-center text-xlGray">
