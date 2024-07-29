@@ -148,7 +148,7 @@ export default function NewSales() {
               onClick={() => {}}
             />
           <p className=" text-base text-darkBlack pt-3">
-               Cold, Outbound Selling
+               Cold, Outbound Leads
               </p>
             
           </div>
@@ -166,7 +166,7 @@ export default function NewSales() {
               onClick={() => {}}
             />
             <p className=" text-base text-darkBlack pt-3">
-                Repeatable Outbound Process
+                Repeatable Processes
               </p>
           </div>
 
