@@ -148,7 +148,7 @@ export default function NewSales() {
               onClick={() => {}}
             />
           <p className=" text-base text-darkBlack pt-3">
-                Improve Sales Results
+               Cold, Outbound Selling
               </p>
             
           </div>
@@ -165,8 +165,8 @@ export default function NewSales() {
               className={`items-center`}
               onClick={() => {}}
             />
-            <p className=" text-base text-darkBlack pt-3 font-primary-md">
-                Improve Sales Results
+            <p className=" text-base text-darkBlack pt-3">
+                Repeatable Outbound Process
               </p>
           </div>
 
@@ -182,8 +182,8 @@ export default function NewSales() {
               className={`items-center`}
               onClick={() => {}}
             />
-            <p className=" text-base text-darkBlack pt-3 font-primary-md">
-                Improve Sales Results
+            <p className=" text-base text-darkBlack pt-3">
+                More Sales Results
               </p>
           </div>
         </div>
