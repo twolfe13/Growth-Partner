@@ -147,7 +147,7 @@ export default function NewSales() {
               className={`items-center`}
               onClick={() => {}}
             />
-          <p className=" text-base text-darkBlack font-semibold font-primary-md">
+          <p className=" text-base text-darkBlack pt-3 font-semibold font-primary-md">
                 Improve Sales Results
               </p>
             
