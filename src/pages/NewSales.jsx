@@ -280,7 +280,7 @@ export default function NewSales() {
       </div>
       <div className="flex flex-col w-full px-10 justify-between gap-6 pb-[50px]  md:px-[100px]  ">
         <h2 className=" text-black text-4xl font-primary-md">
-          My 
+          My{" "} 
           <span className=" text-4xl text-green font-primary-md">
             Value-driven
           </span>{" "}
