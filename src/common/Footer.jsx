@@ -67,6 +67,7 @@ export default function Footer() {
         <div className="flex flex-col w-full md:w-1/4 gap-y-4">
 
           <div className="flex items-center gap-x-5">
+            <Link to="https://github.com/Joeyryanbridges">
             <img
               src={Images?.Linkedin}
               alt=""
@@ -77,6 +78,7 @@ export default function Footer() {
                 // sendEmail();
               }}
             />
+            </Link>
           
           </div>
         </div>
