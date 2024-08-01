@@ -41,7 +41,7 @@ export default function Footer() {
             alt=""
             height={300}
             width={300}
-            className={`p-3 items-center `}
+            className={`items-center `}
             onClick={() => {}}
           />
           <div className=" text-white text-base font-normal">
