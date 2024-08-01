@@ -66,7 +66,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-col w-full md:w-1/4   gap-y-4">
 
-          <div className="flex items-center gap-x-5">
+          <div className="flex items-center gap-x-5 pb-3">
             <img
               src={Images?.Linkedin}
               alt=""
