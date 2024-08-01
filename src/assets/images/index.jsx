@@ -3,6 +3,7 @@ import WhiteLogo from "./growth_partner_in_white.png";
 import Arrow from "./Arrow.png";
 import Facebook from "./facebook.png";
 import Instagram from "./instagram.png";
+import Linkedin from "./linkedin.png";
 import Twitter from "./twitter.png";
 import Landing from "./landing.png";
 import Bolt from "./bolt.png";
