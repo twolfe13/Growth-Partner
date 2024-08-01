@@ -72,7 +72,7 @@ export default function Footer() {
               alt=""
               height={40}
               width={40}
-              className={` pb-5 items-center `}
+              className={` p-2 items-center `}
               onClick={() => {
                 // sendEmail();
               }}
