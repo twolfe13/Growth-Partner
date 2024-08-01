@@ -67,7 +67,7 @@ export default function Footer() {
         <div className="flex flex-col w-full md:w-1/4 gap-y-4">
 
           <div className="flex items-center gap-x-5">
-           <a href="https://github.com/Joeyryanbridges">
+           <a href="https://www.linkedin.com/company/growth-partners-sales/">
             <img
               src={Images?.Linkedin}
               alt=""
