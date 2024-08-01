@@ -64,7 +64,7 @@ export default function Footer() {
             ))}
           </div>
         </div>
-        <div className="flex flex-col w-full md:w-1/4   gap-y-4">
+        <div className="flex flex-col w-full md:w-1/4 gap-y-4">
 
           <div className="flex items-center gap-x-5">
             <img
