@@ -70,8 +70,8 @@ export default function Footer() {
             <img
               src={Images?.Linkedin}
               alt=""
-              height={40}
-              width={40}
+              height={30}
+              width={30}
               className={` items-center `}
               onClick={() => {
                 // sendEmail();
