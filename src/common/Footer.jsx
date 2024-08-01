@@ -68,7 +68,7 @@ export default function Footer() {
 
           <div className="flex items-center gap-x-5 py-4">
             <img
-              src={Images?.Facebook}
+              src={Images?.Linkedin}
               alt=""
               height={10}
               width={10}
