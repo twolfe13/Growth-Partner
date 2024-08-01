@@ -44,7 +44,7 @@ export default function Footer() {
             className={`items-center `}
             onClick={() => {}}
           />
-          <div className=" text-white text-base font-normal">
+          <div className=" text-white text-base font-normal pt-2">
             More Practical, Accountable, and Cost-Effective Sales Consulting
           </div>
         </div>
