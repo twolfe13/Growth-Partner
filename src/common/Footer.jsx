@@ -83,7 +83,7 @@ export default function Footer() {
       </div>
       <div className="w-full h-[1px] bg-xlGray my-2 rounded"></div>
       <p className=" text-sm font-primary-md text-white text-center mt-5">
-        Copyright © 2024, All rights are reserved.
+        Copyright © 2024, All rights reserved.
       </p>
     </div>
   );
