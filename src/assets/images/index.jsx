@@ -121,6 +121,7 @@ const Assets = {
   logo,
   WhiteLogo,
   Arrow,
+  Linkedin,
   Facebook,
   Instagram,
   Twitter,
