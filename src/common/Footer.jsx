@@ -77,26 +77,7 @@ export default function Footer() {
                 // sendEmail();
               }}
             />
-            <img
-              src={Images?.Twitter}
-              alt=""
-              height={20}
-              width={20}
-              className={` items-center `}
-              onClick={() => {
-                // sendEmail();
-              }}
-            />
-            <img
-              src={Images?.Instagram}
-              alt=""
-              height={20}
-              width={20}
-              className={` items-center `}
-              onClick={() => {
-                // sendEmail();
-              }}
-            />
+          
           </div>
         </div>
       </div>
