@@ -56,7 +56,7 @@ export default function Layout() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:block">
-            <ul className="flex space-x-4">
+            <ul className="flex space-x-8">
               {Menus?.map((item, index) => (
                 <li
                   key={index}
