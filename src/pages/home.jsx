@@ -65,8 +65,8 @@ export default function home() {
           </h4>
           <p className=" text-base text-gray">
             Utilize 13+ years of experience excelling in practical sales roles (SDR, AE, AM) -
-                and being responsible for strategy (GTM plan, process design, materials, CRM) working for different growth companies - across North and South America. Leverage my “on the Ground” experience to help you grow your sales,
-            in a repeatable way.{" "}
+                and strategy (GTM plan, sales process design, material development, CRM design) working for different growth companies - across North and South America. Leverage my “on the Ground” experience to help you grow your sales,
+            in a repeatable and sustainable manner.{" "}
           </p>
           <div
             className="shadow-lg w-full  rounded-3xl flex flex-wrap justify-center"
