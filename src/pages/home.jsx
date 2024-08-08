@@ -247,9 +247,13 @@ export default function home() {
           <p className=" text-base font-normal text-mdGray">
             Your sales process.. your pitch.. your materials.. your training..
             your client experience.. the underlying structure of everything
-            touching a lead or client. What about optimizing your sales team
-            member engagement, and resulting productivity?
+            touching a lead or client. 
           </p>
+            What about optimizing your sales team
+            member engagement, and resulting productivity?
+          <p className=" text-base font-normal text-mdGray">
+            
+          </p>  
           <p className=" text-base font-normal text-mdGray">
             If you're committed to scaling up.. that almost always means giving
             up some control and/or taking more risks as a CEO or sales leader.
