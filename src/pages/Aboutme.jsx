@@ -244,7 +244,7 @@ export default function Aboutme() {
                   />
 
                   <img
-                    src={Images?.PresedentTerm3}
+                    src={Images?.SNC}
                     alt=""
                     // height={50}
                     width={"33%"}
