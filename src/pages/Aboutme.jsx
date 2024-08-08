@@ -244,7 +244,7 @@ export default function Aboutme() {
                   />
 
                   <img
-                    src={Images?.SNC}
+                    src={Images?.SNC1}
                     alt=""
                     // height={50}
                     width={"33%"}
