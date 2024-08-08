@@ -249,10 +249,9 @@ export default function home() {
             your client experience.. the underlying structure of everything
             touching a lead or client. 
           </p>
+          <p className=" text-base font-normal text-mdGray">
             What about optimizing your sales team
             member engagement, and resulting productivity?
-          <p className=" text-base font-normal text-mdGray">
-            
           </p>  
           <p className=" text-base font-normal text-mdGray">
             If you're committed to scaling up.. that almost always means giving
