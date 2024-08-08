@@ -338,7 +338,7 @@ export default function home() {
         className=" bg-contain md:bg-cover"
         style={{ backgroundImage: `url(${Images?.Frame})` }}
       >
-        <div className="bg-xlGray bg-opacity-20 w-full flex flex-col md:flex-row px-10  md:px-[100px] pb-12 relative justify-between ">
+        <div className="bg-xlGray bg-opacity-20 w-full flex flex-col md:flex-row px-10  md:px-[100px] pb-8 relative justify-between ">
           <div className="flex flex-col gap-8 md:p-10 md:w-1/2">
             <h5 className=" text-lg font-semibold text-darkBlack font-primary-md">
               My role is to be there for you as a Founder / CEO / Sales Leader
@@ -357,7 +357,7 @@ export default function home() {
               sales - the "lifeblood" of any company.
             </p>
           </div>
-          <div className="my-2 md:w-1/2 flex justify-end md:justify-center">
+          <div className="my-2 md:w-1/2 flex md:justify-center">
             <div>
               <img
                 src={Images?.Wolfe}
