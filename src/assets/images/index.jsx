@@ -29,7 +29,7 @@ import MaskMeet from "./MaskMeet.png";
 import handoff from "./New Sale to Client or handoff Process.png";
 import SalesMaterial from "./Sales Material.png";
 import SalesProcess from "./Sales Process.png";
-import SNC from "./SNC.jpg";
+import SNC1 from "./SNC1.png";
 import KPIDevelopment from "./KPIDevelopment.png";
 import SalesJourney from "./SalesJourney.png";
 import SalesResources from "./SalesResources.png";
@@ -96,7 +96,7 @@ const Assets = {
   Sports3,
   Sports4,
   Statistic,
-  SNC,
+  SNC1,
   Google,
   User,
   ShieldCheck,
