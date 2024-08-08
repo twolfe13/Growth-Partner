@@ -100,7 +100,7 @@ export default function home() {
                 onClick={() => {}}
               />
               <p className=" text-base text-darkBlack font-semibold font-primary-md">
-                Sustainable Performance Consulting
+                Sustainable Performance
               </p>
               <p className=" text-sm text-gray font-normal">
                 Empowering your salespeople through practical, repeatable sales
